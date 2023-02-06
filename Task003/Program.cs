@@ -6,7 +6,7 @@ string coords = Console.ReadLine()
                 .Replace(")", "")
                 ;
 Console.WriteLine(coords);
-Console.Write("Введите коэф: ");
+Console.Write("Введите коэффициент масштабирования: ");
 var k = double.Parse(Console.ReadLine()!);
 
 var data = coords.Split(" ")
